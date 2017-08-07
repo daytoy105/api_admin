@@ -1,0 +1,329 @@
+
+body, html{
+    width: 100%;
+    height: 0%;
+    background: #f9f9f9;
+}
+
+.header{
+    position: absolute;
+    left:0;
+    top:0;
+    background: #333;
+    width: 100%;
+    height:60px;
+    padding-left: 50px;
+}
+.header #logo{
+    float:left;
+    margin-top: 5px;
+
+}
+.header h1{
+    float: left;
+    color: #fff;
+    line-height: 60px;
+    margin-left: 20px;
+    font-size: 32px
+}
+/* 左侧导航固定宽度 */
+
+#leftMenu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: #333;
+    border-right: 1px solid #e9e9e9;
+}
+
+
+/* logo样式 */
+
+#logo {
+    display: block;
+    margin: 20px auto;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -ms-transition: all 1s;
+    transition: all 1s;
+}
+
+#logo:hover {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+
+/* 右侧宽度自适应 */
+
+#rightWrap {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left:20px;
+    position: absolute;
+    top: 0;
+    left: 210px;
+    right: 0;
+    bottom: 0;
+    overflow-y: auto;
+    background: #fff;
+}
+
+.right-box {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 20px 20px 0;
+    position: absolute;
+    top: 73px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: auto;
+    background: #fff;
+}
+
+#rightWrap .ant-menu-submenu {
+    float: right;
+}
+.right-header{
+    padding: 19px 20px 0;
+    border-bottom: 1px solid #e9e9e9;
+}
+
+.right-header .ant-menu-horizontal{
+    border-bottom:none;
+}
+.right-header .pro_name{
+    font-size: 32px;
+    letter-spacing: 0.2em;
+    font-weight: bold;
+    margin-left: 40%;
+}
+/*********  请求参数的部分  ********/
+
+.keycode {
+    margin-left: 5%;
+    overflow: hidden;
+     
+}
+.keycode .field_body{
+     border: none
+}
+
+.keycode .field_body li {
+    border-right:none;
+    margin-bottom: 12px;
+}
+
+.key_item {
+    margin-left: 20px;
+}
+
+
+.key_header {
+    margin: 15px;
+    font-size: 16px;
+}
+.key_header .key_field{
+    width: 88%;
+    display: inline-block;
+    margin-right: 20px;
+}
+.edit_check {
+    text-align: right;
+}
+
+
+/****** 项目首页***********/
+
+.project {
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #ccc;
+}
+.project h1{
+    font-size: 28px;
+}
+
+.project_body {
+    margin-top: 30px;
+}
+
+.project_body h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+
+.project_footer {
+    text-align: center;
+}
+
+.btn_enter {
+    width: 260px;
+    height: 46px;
+    border-radius: 25px;
+    overflow: hidden;
+    font-size: 20px;
+    line-height: 38px;
+    color: #fff;
+    font-weight: 700;
+}
+ 
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+ 
+.ant-row {
+    display: inherit;
+}
+
+.field_header {
+    margin-top: 10px;
+}
+
+.field_header,
+.field_body {
+    width: 100%;
+    background: #eee;
+    border: 1px solid #e9e9e9;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.field_header li,
+.field_body li{
+    height: 40px;
+    float: left;
+    border-right: 1px solid #e1e1e1;
+}
+
+.field_body {
+    height: 50px;
+    background: #fff;
+    text-align: left;
+}
+
+.field_body li {
+    height: 50px;
+    padding-left: 8px;
+}
+
+.field_body .ant-form-item{
+    margin-top: 4px;
+    margin-bottom: 0px;
+}
+dl.item_wrap {
+    margin-bottom: 10px;
+}
+
+dt {
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 40px;
+    margin: 0px 10px;
+    padding-left: 10px;
+    background: #dcf1ff;
+}
+
+dd {
+    font-size: 16px;
+    line-height: 40px;
+    margin: 0px 10px;
+    text-indent: 0.5em;
+    min-height: 40px;
+    word-wrap: break-word;
+}
+dd .ant-form-item{
+    margin-bottom: 0px;
+    margin-top:10px;
+}
+
+.item_operate {
+    float: right;
+    margin-right: 20px;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+span.item_operate {
+    margin-top: 0;
+}
+
+.textarea_item {
+    background: #f9f9f9;
+    margin: 10px 0;
+    white-space: pre-wrap;
+}
+
+textarea {
+    margin: 10px 0;
+}
+
+label {
+    font-size: 16px;
+}
+
+.ant-input,
+.ant-radio-wrapper,
+.ant-select,
+.ant-select-dropdown-menu-item {
+    font-size: 14px;
+}
+
+.ant-modal-title {
+    font-size: 22px;
+}
+
+.ant-menu-inline>.ant-menu-item,
+.ant-menu-item-group-list>.ant-menu-item,
+.ant-menu-vertical>.ant-menu-item{
+    font-size: 14px;
+}
+.ant-menu-inline>.ant-menu-submenu>.ant-menu-submenu-title,
+.ant-menu-item-group-list>.ant-menu-submenu>.ant-menu-submenu-title,
+.ant-menu-vertical>.ant-menu-submenu>.ant-menu-submenu-title{
+    font-size: 16px;
+}
+
+.btn_submit{
+    margin-left: 20%;
+    padding: 6px 50px;
+    font-size: 18px;
+}
+
+.ant-select-dropdown-menu {
+    max-height: 400px;
+}
+
+/**上传图片*/
+.upload-list-inline .ant-upload-list-item {
+  display: inline-block;
+  width: 200px;
+  margin-right: 8px;
+}

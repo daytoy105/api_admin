@@ -1,0 +1,7 @@
+export const GETMENU = 'GETMENU'
+export const GETSUCCESS = 'GETSUCCESS'
+export const GETMODULES = 'GETMODULES'
+export const REFRESHDATA = 'REFRESHDATA'
+export const POSTSUCCESS = 'POSTSUCCESS'
+export const ADD_KEY = 'ADD_KEY'
+export const PREFIX_URL = 'http://www.lhyou.com/gdad/api_admin/'
